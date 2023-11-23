@@ -1,0 +1,253 @@
+*
+{
+    margin:0;
+    padding:0;
+    font-family: 'Nunito Sans',sans-serif;
+
+}
+
+.parallax-1
+{
+    margin:0;
+    width:100%;
+    height:700px;
+    background-image: url("frontimage.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.parallax-1 h1
+{
+
+}
+
+.parallax-2
+{
+    width:100%;
+    height:600px;
+    background-image: url("GTHomepageweb.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    
+}
+
+.parallax-3
+{
+    width:100%;
+    height:600px;
+    background-image: url("parisbanner.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    
+}
+
+.parallax-4
+{
+    width:100%;
+    height:600px;
+    background-image: url("Bicycle.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    
+}
+
+.parallax-5
+{
+    width:100%;
+    height:600px;
+    background-image: url("Bottom.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    
+}
+
+.parallax-5 h1
+{
+    color: azure;
+    text-align: center;
+    padding-top: 200px;
+    font-size: 50px;
+
+}
+
+
+
+.parallax-5 button
+{
+    background-color: rgb(198, 153, 29);
+    color: rgb(73, 68, 55);
+    padding:8px 14px;
+    text-align: center;
+    border-color: none;
+    font-size: 25px;
+    margin-left: 650px;
+    margin-top:10px;
+}
+
+
+
+.parallax-6
+{
+    width:100%;
+    height:600px;
+    background-image: url("pony.jpg");
+    background-size:100% 100%;
+    background-attachment: fixed;
+}
+.parallax-6 h1
+{
+    font-family: 'Nunito Sans';
+    color: azure;
+    margin-left: 60px;
+    padding-top: 190px;
+    font-size: 50px;
+}
+.parallax-6 button
+{
+    background-color: #e7e7e7; 
+    color: rgb(174, 174, 174);
+    padding:5px 14px;
+    text-align: center;
+    border-color: none;
+    font-size: 25px;
+    margin-left: 70px;
+    margin-top:10px;
+
+}
+.parallax-6 button:hover
+{
+    background-color: aliceblue;
+}
+.parallax-5 button:hover
+{
+    background-color: aliceblue;
+}
+
+.footer
+{
+    width:100%;
+    height:700px;
+    background-color: azure;
+
+}
+.footer h1
+{
+    text-align: center;
+    padding-top: 100px;
+}
+.footer p
+{
+    text-align: center;
+    padding-top: 5px;
+}
+.footer input
+{
+    margin-left: 700px;
+    margin-top: 30px;
+}
+
+li
+{
+    display: inline;
+    float:right;
+    margin-top:50px;
+    padding:10px;
+    
+    font-size: x-large;
+    font-style: oblique;
+}
+
+.parallax-2 h1
+{
+    font-family: 'Nunito Sans';
+    color: rgb(210, 210, 210);
+    margin-left:50px;
+    padding-top: 190px;
+    font-size: 50px;
+}
+.parallax-2 a
+{
+    margin-left: 65px;
+    padding-top:15px;
+    color: rgb(192, 131, 39);
+    font-size: 20px;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.parallax-3 h1
+{
+    font-family: 'Nunito Sans';
+    color: rgb(210, 210, 210);
+    margin-left:50px;
+    padding-top: 190px;
+    font-size: 50px;
+}
+
+.parallax-3 a
+{
+    margin-left: 65px;
+    padding-top:20px;
+    color: rgb(192, 131, 39);
+    font-size: 20px;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.parallax-4 h1
+{
+    font-family: 'Nunito Sans';
+    color: rgb(210, 210, 210);
+    margin-left:50px;
+    padding-top: 190px;
+    font-size: 50px;
+}
+
+.parallax-4 a
+{
+    margin-left: 65px;
+    padding-top:20px;
+    color: rgb(192, 131, 39);
+    font-size: 20px;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.parallax-6 a
+{
+    margin-left: 60px;
+    padding-top:20px;
+    color: rgb(192, 131, 39);
+    font-size: 20px;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.fa-facebook {
+    font-size: 30px;
+    width: 20px;
+    height:10px;
+    text-align: center;
+    text-decoration: none;
+    margin-left:750px;
+    margin-top:10px;;
+    display: inline;
+  }
+  .fa-twitter {
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10px;
+    padding-left:2px;
+    display: inline;
+  }
+  .fa-youtube {
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10px;
+    padding-left:2px;
+    display: inline;
+  }

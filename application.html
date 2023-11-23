@@ -1,0 +1,96 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="appStyle.css">
+
+    </head>
+    <body>
+        <h2>Registration Form</h2>
+        <form>
+            <div class = "basicinfo">
+            <label for = "fname" style="margin-right:0;">First Name</label>
+            <input type = "text" id = "fname" name = "fname" style="margin-left:40px;"/><br>
+
+            <label for = "lname">Last name</label>
+            <input type = "text" id = "lname" name = "lname" style="margin-left:40px;" /><br>
+
+            <label for = "DOB">Date Of Birth</label>
+            <input type = "date" id = "DOB" name = "DOB" min ="1990-01-01" max = "2023-01-01" style="margin-left:40px;" /><br>
+
+            <label for = "email">Email ID</label>
+            <input type = "text" id = "email" name = "email" style="margin-left:55px;" /><br>
+
+            <label for = "Mobile Number">Mobile Number</label>
+            <input type = "text" id = "mobile number" name = "mobile number"style="margin-left:40px;"  /><br>
+
+            <label for = "gender">Gender</label>
+            <input type = "radio" id = "Male" name = "Gender" value = "Male" /> 
+            <label for = "">Male</label><input type = "radio" id = "Male" name = "Gender" value = "Male" /><label>Female</label><br>
+            <label for = "Address">Address</label><br> 
+            <textarea rows = "10" cols = "30">
+            </textarea>
+            </div>
+            <div class = "address">
+            <br>
+            <label class = "name" style="margin-right:0;">City</label>
+            <input type = "text" id = "co" name = "City" style="margin-left:70px;"/><br>
+            <label class = "name" style="margin-right:0;">Pincode</label>
+            <input type = "text" id = "co" name = "Pincode" style="margin-left:40px;"/><br>
+            <label class = "name" style="margin-right:0;">State</label>
+            <input type = "text" id = "co" name = "State" style="margin-left:60px;"/><br>
+            <label class = "name" style="margin-right:0;">Country</label>
+            <input type = "text" id = "co" name = "Country" style="margin-left:42px;"/><br>
+            <label>Hobbies</label>
+            <label>Drawing</label><input type = "checkbox" id = "Hobbies" name = "Hobbies-Draw">
+            <label>Singing</label><input type = "checkbox" id = "Hobbies" name = "Hobbies-Sing">
+            <label>Dancing</label><input type = "checkbox" id = "Hobbies" name = "Hobbies-Dance">
+            <label>Sketching</label><input type = "checkbox" id = "Hobbies" name = "Hobbies-Sketch">
+            <label>Others</label>
+            <input type = "checkbox" id = "Hobbies" name = "Hobbies-Other">
+            <input type = "text" name = "Hobbies-Others">
+            </div>
+            <div class = "table">
+            <label for="Qualification">Qualification</label>
+            <table>
+                    <th>Exam</th>
+                    <th>Board</th>
+                    <th>Year Of Passing</th>
+                    <th>Perccentage</th>
+                <tr>
+                    <td>
+                        <label>Class X</label>
+                        <input type = "text" id = "Class X" name = "Board">
+                        <input type = "text" id = "Class X" name = "Percentage">
+                        <input type = "text" id = "Class X" name = "Year Of Passing">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Class XII</label>
+                        <input type = "text" id = "Class XII" name = "Board">
+                        <input type = "text" id = "Class XII" name = "Percentage">
+                        <input type = "text" id = "Class XII" name = "Year Of Passing">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Graduation</label>
+                        <input type = "text" id = "Graduation" name = "Board">
+                        <input type = "text" id = "Graduation" name = "Percentage">
+                        <input type = "text" id = "Graduation" name = "Year Of Passing">
+                    </td>
+                </tr>
+            </table>
+            </div>
+
+            <label>Courses applied for</label>        
+            <label>B.C.A</label><input type = "radio" id = "Course" name = "Stream" />
+            <label>B.Sc</label><input type = "radio" id = "Course" name = "Stream" />
+            <label>B.Com</label><input type = "radio" id = "Course" name = "Stream" />
+            <label>B.A</label><input type = "radio" id = "Course" name = "Stream" />
+            <br>
+            <button type = "button">Submit</button>
+            <button type = "button">Reset</button>
+
+        </form>
+        </body>
+</html>

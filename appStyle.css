@@ -1,0 +1,13 @@
+body
+{
+    background-color: cornflowerblue;
+    font-family: sans-serif;
+    font-size: medium;
+}
+
+
+button
+{
+    display: inline-block ;
+    margin-left: 50%;
+}
